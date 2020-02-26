@@ -1,5 +1,5 @@
 /*
- * Copyright © 2014 - 2015 | Alexander01998 | All rights reserved.
+ * Copyright Â© 2014 - 2015 | Alexander01998 | All rights reserved.
  *
  * This Source Code Form is subject to the terms of the Mozilla Public
  * License, v. 2.0. If a copy of the MPL was not distributed with this
@@ -195,14 +195,14 @@ public class WurstComboBoxUI extends AbstractComponentUI<ComboBox>
 		glEnd();
 		glLineWidth(1.0f);
 		glColor4f(0.0f, 0.0f, 0.0f, 1.0f);
-		// glBegin(GL_LINE_LOOP);
-		// {
-		// glVertex2d(0, 0);
-		// glVertex2d(area.width, 0);
-		// glVertex2d(area.width, area.height + extendedHeight);
-		// glVertex2d(-0.5, area.height + extendedHeight);
-		// }
-		// glEnd();
+		 glBegin(GL_LINE_LOOP);
+		 {
+		 glVertex2d(0, 0);
+		 glVertex2d(area.width, 0);
+		 glVertex2d(area.width, area.height + extendedHeight);
+		 glVertex2d(-0.5, area.height + extendedHeight);
+		 }
+		 glEnd();
 		glBegin(GL_LINES);
 		{
 			glVertex2d(maxWidth + 4, 2);
